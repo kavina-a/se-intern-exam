@@ -77,3 +77,44 @@ While the project is functional and was time limited, there are areas that could
 
 - **Rating System Improvement**: 
   - Add the ability for users to edit their rating for a book after posting a review.
+
+---
+
+## **Setting Up - Installation - FrontEnd**
+
+### **1. Clone the repository **
+   `git clone https://github.com/kavina-a/book-review-application.git`
+
+
+### **2. 	Navigate to the backend directory:**
+`cd book-review-application/server`
+
+
+### **3. 	Install the required dependencies:**
+`npm install`
+
+
+### **4. 	Set up your environment variables:**
+`MONGO_URI=your_mongodb_connection_string`
+`JWT_SECRET=your_jwt_secret`
+`PORT=5001`
+
+
+### **5. 	Run the server:**
+`npm start`
+
+
+
+## **Setting Up - Installation - BackEnd**
+
+### **1. 	Navigate to the frontend directory:**
+`cd book-review-application/client`
+
+
+### **2. 	Install the required dependencies:**
+`cd book-review-application/server`
+
+
+### **3. 	Run the server:**
+`npm start`
+
